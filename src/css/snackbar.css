@@ -1,0 +1,28 @@
+.form {
+    max-width: 300px;
+    margin: 20px auto;
+    font-family: sans-serif;
+}
+
+input[type="number"],
+button {
+    width: 100%;
+    margin-top: 8px;
+    padding: 6px;
+    box-sizing: border-box;
+}
+
+fieldset {
+    margin: 15px 0;
+    padding: 10px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+button {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}

@@ -1,0 +1,30 @@
+.timer {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.value {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.label {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    color: #555;
+}
+
+button[disabled] {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
